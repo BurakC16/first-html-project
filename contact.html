@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Burak" content="Contact Burak's Burgerhouse">
+        <meta name="description" content="Contact Form">
+        <title>Contact</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <main>
+            <h1>Alle vormen van feedback wordt geapprecieerd!</h1>
+
+        <article id="contactform">
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Persoonlijke gegevens</legend>
+                    <p>
+                        <label for="naam">Naam:</label>
+                        <input type="text" name="naam" id="naam" placeholder="Peter" 
+                        autocomplete="on" required autofocus>
+                    </p>
+                    <p>
+                        <label for="voornaam">Voornaam:</label>
+                        <input type="text" name="voornaam" id="voornaam" placeholder="Peeters" 
+                        autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="email adres">Email Adres:</label>
+                        <input type="text" name="email adres" id="email adres" placeholder="voorbeeld@gmail.com" 
+                        autocomplete="on" required>
+                    </p>
+                    <br>
+                </fieldset>
+            </form>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Geef ons feedback!</legend>
+                    <p>
+                        <input type="radio" name="beefburger" id="beefburger" value="beefburger">
+                        <label for="beefburger">Beefburger</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="chickenBurger" id="chickenBurger" value="chickenBurger" required>
+                        <label for="chickenBurger">Chicken Burger</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="fishBurger" id="fishBurger" value="fishBurger" required>
+                        <label for="fishBurger">Fish Burger</label>
+                    </p>
+            </form>
+                </fieldset>
+                    <p>
+                        <label for="message">Je bericht:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Typ je bericht hier" required></textarea>
+                    </p>
+                </fieldset>
+            </form>
+        </article>
+        </main>
+        <hr>
+        <footer>
+            &nbsp;&nbsp;&copy;&nbsp;&lt;&nbsp;Burak's Burgerhouse&nbsp;&gt;&nbsp;&nbsp;
+        </footer>
+    </body>
